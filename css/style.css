@@ -1,0 +1,184 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+}
+body{
+
+}
+.container{
+   width: 1300px;
+padding-top: 30px;
+
+padding-bottom: 30px;
+
+margin: auto;
+}
+.flex{
+
+display: flex;
+
+/* flex-wrap: wrap; */
+}
+nav{}
+ul{
+    display: flex;
+}
+li{
+
+padding-left: 50px;
+
+list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #6d7361;
+    font-family: sans-serif;
+}
+
+a:hover{
+	   color: currentColor;
+}
+header{
+
+}
+section{
+}
+footer{
+
+}
+.logo{
+    flex-basis: 20%;
+    max-width: 20%;
+    padding-left: 20px;
+}
+nav{
+    flex-basis: 80%;
+    max-width: 80%;
+    /* display: flex; */
+}
+img{}
+/*******header start********/
+ 
+.logo a{
+
+}
+.logo a img{
+
+}
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+}
+nav ul li{
+    padding-left: 50px;
+    list-style: none;
+    display: block;
+    /* text-decoration: none; */
+}
+nav ul li a{
+    /* text-decoration: none; */
+}
+
+/*******banner start********/
+
+.banner img{
+    width: 100%;
+    margin: auto;
+    padding-bottom: 40px;
+}
+
+/*******article start********/
+article{
+    padding-top: 20px;
+    padding-bottom: 35px;
+}
+article span{
+
+font-family: sans-serif;
+
+color: darkslategrey;
+
+/* padding-top: 123px; */
+
+/* margin-bottom: 72px; */
+}
+article h1{
+
+padding-top: 20px;
+
+/* padding-bottom: 15px; */
+}
+article p{
+
+padding-bottom: 15px;
+
+padding-top: 15px;
+ font-family: sans-serif;
+}
+article a:hover{
+    color: currentColor;
+}
+/*******blog start********/
+.blog{
+
+/* padding: 10px; */
+
+padding: 0px 15px;
+
+/* display: flex; */
+}
+
+.blog img{
+
+width: 100%;
+}
+.
+.menu ul{
+
+}
+/*******footer start********/
+.menu ul li{
+
+}
+.menu ul li a{}
+.item {
+
+padding-left: 500px;
+}
+.item ul{
+    /* justify-content: flex-end; */
+}
+.item ul li{
+}
+.item ul li span{
+
+}
+@media(max-width: 1000px)
+{
+	.container{
+		width: 800px;
+	}
+}
+@media(max-width: 800px)
+{
+	.container{
+		width: 500px;
+	}
+	.item {
+
+   padding-left: 50px;
+}
+.logo a img{
+  width: 100px;
+}
+}
+@media(max-width: 300px)
+{
+	body{
+
+		width:100%;
+	}
+}
